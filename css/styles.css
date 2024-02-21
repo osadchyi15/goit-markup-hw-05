@@ -629,7 +629,7 @@ header .address-menu {
   right: 0;
   bottom: 0;
   background: rgba(46, 47, 66, 0.4);
-  z-index: 999;
+  z-index: 100;
 }
 
 .backdrop.hide {
@@ -831,9 +831,15 @@ fieldset {
 
 .checkbox {
   display: flex;
+  position: relative;
   column-gap: 8px;
   margin-bottom: 24px;
   align-items: center;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
 }
 
 .privacy-text {
