@@ -725,8 +725,10 @@ header .address-menu {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus + .input-icon {
+.form-input:focus {
   border-color: #4d5ae5;
+}
+.form-input:focus + .input-icon {
   fill: #4d5ae5;
 }
 
