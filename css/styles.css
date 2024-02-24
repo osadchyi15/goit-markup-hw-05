@@ -629,7 +629,7 @@ header .address-menu {
 .backdrop.is-open {
   opacity: 1;
   visibility: visible;
-  pointer-events: all;
+  pointer-events: auto;
 }
 
 .modal-window {
@@ -777,7 +777,7 @@ header .address-menu {
   color: #8e8f99;
 }
 
-.privacy-accept {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
