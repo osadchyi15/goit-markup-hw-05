@@ -804,7 +804,7 @@ header .address-menu {
   fill: transparent;
 }
 
-.privacy-accept:checked .checkbox-ok {
+.visually-hidden:checked .checkbox-ok {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
