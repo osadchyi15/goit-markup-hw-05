@@ -804,7 +804,7 @@ header .address-menu {
   fill: transparent;
 }
 
-.visually-hidden:checked .checkbox-ok {
+.visually-hidden:checked + label > span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
