@@ -612,21 +612,24 @@ header .address-menu {
 }
 
 /* ========== Modal ========== */
-.modal-container {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
+  height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-hide {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: all;
 }
 
 .modal-window {
@@ -670,11 +673,12 @@ header .address-menu {
 }
 
 .close-icon {
+  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btn:hover + .close-icon,
-.close-btn:focus + .close-icon {
+.close-btn:hover > .close-icon,
+.close-btn:focus > .close-icon {
   fill: #ffffff;
 }
 
@@ -730,6 +734,7 @@ header .address-menu {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
