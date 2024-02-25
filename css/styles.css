@@ -52,6 +52,7 @@ img {
 
 section {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 fieldset {
@@ -75,6 +76,8 @@ header .container {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -124,7 +127,6 @@ header .address-menu {
   color: #2e2f42;
 }
 
-/* ========== header ========== */
 .logo-link {
   text-decoration: none;
   color: #4d5ae5;
@@ -477,6 +479,8 @@ header .address-menu {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .footer-container {
